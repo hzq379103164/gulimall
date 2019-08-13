@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class WorldController {
 
-    @Value("${spring.datasource.url}")
+   // @Value("${spring.datasource.url}")
     private String val;
 
     @GetMapping("/world")

@@ -20,7 +20,7 @@ import java.util.Map;
  *
  * @author Mark sunlightcs@gmail.com
  */
-public class Query<T> {
+public class  Query<T> {
 
 
     public IPage<T> getPage(QueryCondition params) {

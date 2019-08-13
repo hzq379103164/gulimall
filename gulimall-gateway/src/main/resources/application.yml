@@ -6,7 +6,7 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: pms_route
+        - id: gulimall-pms_route
           uri: lb://gulimall-pms
           predicates:
             - Path=/pms/**
